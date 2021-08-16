@@ -7,28 +7,32 @@ export const Container = styled.div`
     justify-content: center;
     background: ${({ theme }) => theme.colors.green};
 
-    height: 120vh;
+    height: 140vh;
     width: 103%;
 
-    padding-top: 50px;
+    padding-top: 100px;
 
     .ManPlant {
         height: 300px;
         padding: 30px;
         margin-left: 350px;
 
+        transform: translateY(40px);
         z-index: 1;
+
+        width: 30rem;
     }
 
     @media (max-width: 700px) {
-        height: 190vh;
+        height: auto;
+        padding-top: 200px;
 
         .ManPlant {
             height: 300px;
             padding: 30px;
             margin-left: 100px;
 
-            transform: translateY(50px);
+            transform: translateY(40px);
         }
     }
 `;

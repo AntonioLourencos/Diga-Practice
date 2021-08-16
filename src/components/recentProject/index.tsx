@@ -2,8 +2,8 @@ import Image from "next/image";
 import { useTheme } from "styled-components";
 import { Line } from "../../styles/utils/Line";
 import { Container, Inform, GroupCard, Card } from "./styled";
-import Image1 from "../../assets/image1.png";
-import Image2 from "../../assets/image2.png";
+import Image1 from "../../assets/png/image1.png";
+import Image2 from "../../assets/png/image2.png";
 
 const RecentProject = (): JSX.Element => {
     const theme = useTheme();

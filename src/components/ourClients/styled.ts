@@ -38,47 +38,46 @@ export const Introduction = styled.div`
             color: ${({ theme }) => theme.colors.primary};
         }
     }
-
-    .corporations {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        margin-top: 100px;
-        width: 100%;
-    }
 `;
 
 export const WhyChooseUs = styled.div`
     position: relative;
     display: grid;
-    align-items: center;
-    justify-content: space-evenly;
-
-    width: 100%;
-
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-gap: 5px;
+
+    height: 400px;
+    width: 100%;
 
     margin-top: 200px;
 
     .contentChooseUs {
         display: flex;
-        align-items: center;
         justify-content: center;
 
+        height: 100%;
         z-index: 1;
     }
 
-    .card {
-        height: 100%;
-        width: 25rem;
+    .womanRead {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        padding: 40px 30px;
+        margin-left: 10%;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 30px;
+        margin-right: 30%;
 
         background-color: ${({ theme }) => theme.colors.primary};
+
         section {
             span {
                 font-size: 2rem;
@@ -110,8 +109,51 @@ export const WhyChooseUs = styled.div`
 
     @media (max-width: 700px) {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        grid-gap: 0px;
+
+        .contentChooseUs {
+            padding: 30px 0px;
+        }
+
+        .card {
+            margin-right: 0%;
+        }
+    }
+`;
+
+export const GroupCorporations = styled.div`
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    margin-top: 100px;
+    width: 100%;
+
+    div {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 10px;
+        width: 10rem;
+        height: 5rem;
+    }
+
+    @media (max-width: 700px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+
+        div {
+            width: auto;
+            height: 5rem;
+        }
     }
 `;

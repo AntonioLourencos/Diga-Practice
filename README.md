@@ -9,9 +9,9 @@ With this project I have practiced new methods and learn moro about TypeScript.
 
 ### Links
 
--   [Demo](https://digapractice.vercel.app/)
--   [Original Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=0%3A1>)
--   [Edited Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=113%3A0>)
+-   [Demo](https://digapractice.vercel.app/target="_blank")
+-   [Original Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=0%3A1&target="_blank">)
+-   [Edited Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=113%3A0&target="_blank">)
 
 ## Techs and Tools
 

@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DigaPractice
+
+I developed this project as an objetive to learn and improve my skills. Like NextJS, TypeScript and CSS-JS.
+
+## About
+
+I looked for a design that I could edit and then changed some things I didn't like or didn't need, so I used the original design as a prototype.
+With this project I have practiced new methods and learn moro about TypeScript.
+
+### Links
+
+-   [Demo](https://digapractice.vercel.app/)
+-   [Original Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=0%3A1>)
+-   [Edited Design](<https://www.figma.com/file/EZxLOiUExMHA7n8jB7tEoS/Digi-Diga-Landing-Page-(Community)?node-id=113%3A0>)
+
+## Techs and Tools
+
+-   TypeScript
+-   NextJs
+-   StyledComponents
+-   Figma
 
 ## Getting Started
 
-First, run the development server:
+If you want to run the projects, here are the steps for you.
 
-```bash
+### Clone Project with _Https_
+
+```sh
+git clone https://github.com/AntonioLourencos/Diga-Practice.git
+# and
+cd Diga-Practice
+```
+
+### Install
+
+```sh
+npm install
+# or
+yarn
+```
+
+### Run develope mode
+
+```sh
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Made by [AntonioLourencos](https://www.linkedin.com/in/antoniolourencos/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</p>
